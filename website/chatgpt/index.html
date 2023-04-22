@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Import Materialize CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!--Custom CSS-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!--Header-->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">My Website</a>
+      <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Mobile Navigation-->
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+
+  <!--Banner-->
+  <div class="banner">
+    <div class="banner-text">
+      <h1>Welcome to my website</h1>
+      <p>Learn more about me and my work</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+  </div>
+
+  <!--About Section-->
+  <div class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus enim a justo sagittis, ut blandit erat consectetur. Integer at mauris euismod, ullamcorper urna vel, lacinia odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla malesuada bibendum ornare. Donec vel enim eros. Sed sit amet magna euismod, pharetra mi et, placerat odio.</p>
+    </div>
+  </div>
+
+  <!--Portfolio Section-->
+  <div class="section">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12">
+            </div>
+            <div class="card-content">
+              <span class="card-title">Project 1</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus enim a justo sagittis, ut blandit erat consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1542621334-a254cf47733d">
+            </div>
+            <div class="card-content">
+              <span class="card-title">Project 2</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus enim a justo sagittis, ut blandit erat consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1523726491678-bf852e717f6a">
+            </div>
+            <div class="card-content">
+              <span class="card-title">Project 3</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus enim a justo sagittis, ut blandit erat consectetur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Contact Section-->
+  <div class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <div class="input-field">
+          <input type="text" id="name" name="name">
+          <label for="name">Name</label>
+        </div>
+        <div class="input-field">
+          <input type="email" id="email" name="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <textarea id="message" class="materialize-textarea"></textarea>
+          <label for="message">Message</label>
+        </div>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <h5>About Me</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dapibus enim a justo sagittis, ut blandit erat consectetur.</p>
+        </div>
+        <div class="col s12 m6">
+          <h5>Connect</h5>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--Import Materialize JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!--Custom JS-->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
